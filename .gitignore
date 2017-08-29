@@ -1,1 +1,17 @@
-_build
+.gitignore
+*.annot
+*.cmo
+*.cma
+*.cmi
+*.a
+*.o
+*.cmx
+*.cmxs
+*.cmxa
+
+# jbuilder working directory
+_build/
+
+# ocaml build targets
+*.byte
+*.native
